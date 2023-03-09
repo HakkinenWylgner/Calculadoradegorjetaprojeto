@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity {
                     Toast.LENGTH_LONG
         ).show();
         }else {
-            //Converter string para double
+            //Convertendo string para double
             double valorDigitado = Double.parseDouble(valorRecuperado);
 
-            //calcula a gorjeta total
+            //calculando a gorjeta total
             double gorjeta = valorDigitado * (porcentagem/100);
             double total = gorjeta + valorDigitado;
 
