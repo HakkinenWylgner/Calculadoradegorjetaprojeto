@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         textTotal           = findViewById(R.id.textTotal);
         seekBarGorjeta      = findViewById(R.id.seekBarGorjeta);
 
-        //Adicionar Listener SeekBar
+        //Adicionar Listener SeekBar / ouvinte
 
         seekBarGorjeta.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
